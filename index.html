@@ -1,0 +1,823 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Bootstrap Example</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/style.css?v=3">
+		<link rel="stylesheet" href="assets/css/custom.css?v=2">
+		<link rel="stylesheet" href="assets/css/plugins/jquery.fancybox.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="assets/js/plugins/jquery.fancybox.min.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-9 nomargin">
+							<div class="logo">
+								<a href="index.html"><img class="logo-img" src="assets/images/logo.png" alt="logo"></a>
+								<div class="callNumber mobilesizecall">
+									<p><span class="callus">CALL US:</span> 800<span style="border-bottom:3px solid #fdb913;">-392-4727</span></p>
+								</div>
+							</div>
+							<div class="navigation">
+								<nav class="navbar navbar-default">
+									<!-- Brand and toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+									</div>
+									<!-- Collection of nav links and other content for toggling -->
+									<div id="navbarCollapse" class="collapse navbar-collapse">
+										<ul class="nav navbar-nav">
+											<li class="active"><a href="index.html">Home</a></li>
+											<li><a href="howitworks.html">How it Works</a></li>
+											<li><a href="sucessstories.html">Success Stories</a></li>
+											<li><a href="food.html">Food</a></li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+						</div>
+
+						<div class="col-md-3 nomargin callDetail">
+							<div class="callNumber largesize">
+								<p><span class="callus">CALL US:</span> 800<span style="border-bottom:3px solid #fdb913;">-392-4727</span></p>
+							</div>
+							<div class="callAction">
+								<p><a href="#" class="btn">START NOW >></a></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="slider">
+			<div class="container">
+				<div class="row" style="position:relative;">
+					<div class="col-md-12">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+							</ol>
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="assets/images/slider1.jpg" alt="Los Angeles" class="img">
+									<div class="single">
+										<div class="bxslide-txt">
+											<p class="sub3 clinic-title" style="color: white">Lose Weight in 2017!</p>
+											<h2 class="hero orange">Lose the weight. Keep it off.</h2>
+											<!--<p class="sub2 slide-description" style="color: white">Jump-start your weight loss!</p>-->
+											<!--<img class="thumbnail-img" src="http://content.everydayhealth.com/mcd/cms/content/images/public/tmcd_dietbook_2017_75x80.png">-->
+											<!--<p class="body3 txt-uppercase thumbnail-txt">Based on the #1 New York Times Best-Seller</p>-->
+										</div>
+									</div>
+								</div>
+
+								<div class="item">
+									<img src="assets/images/slider2.jpg" alt="Chicago" class="img">
+									<div class="single">
+										<div class="bxslide-txt">
+											<p class="sub3 clinic-title" style="color: white">Lose Weight in 2017!</p>
+											<h2 class="hero orange">Lose the weight. Keep it off.</h2>
+											<!--<p class="sub2 slide-description" style="color: white">Jump-start your weight loss!</p>-->
+											<!--<img class="thumbnail-img" src="http://content.everydayhealth.com/mcd/cms/content/images/public/tmcd_dietbook_2017_75x80.png">-->
+											<!--<p class="body3 txt-uppercase thumbnail-txt">Based on the #1 New York Times Best-Seller</p>-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div style="overflow:hidden">
+						<div class="fd-profile-wrapper clearfix NoClassShowAll">
+							<header class="heading">
+								<h2 class="white h4 txt-center">Free Diet Profile</h2>
+								<p class="body2 white txt-center">Tap here for your free diet profile</p>
+							</header>
+							<div class="fd-profile-form">
+								<form id="start-now-form" novalidate="novalidate" action="https://register.diet.mayoclinic.org/public_desktop?iid=widget">
+									<div class="form-wrapper">
+										<input type="hidden" name="iid" value="widget">
+										<div class="form-marker body3 start">Start</div>
+										<div class="row">
+											<label for="Diagnostics-Form-Weight" class="body1 form-label"><span class="valign-middle">Weight</span></label>
+											<input name="Weight" id="Diagnostics-Form-Weight" class="thin min ext alt-placeholder alt-placeholder-active" maxlength="3" type="tel" pattern="[0-9]*" data-placeholder="150" value=""><span class="form-field-suffix body4">lbs</span>
+										</div>
+										<div class="row">
+											<label for="Diagnostics-Form-Goal" class="body1 form-label"><span class="valign-middle">Goal Weight</span></label>
+											<input name="TargetWeight" id="Diagnostics-Form-Goal" class="thin min ext alt-placeholder alt-placeholder-active" maxlength="3" type="tel" pattern="[0-9]*" data-placeholder="130" value=""><span class="form-field-suffix body4">lbs</span>
+										</div>
+										<div class="row">
+											<label for="Diagnostics-Form-Feet" class="body1 form-label"><span class="valign-middle">Height</span></label>
+											<input type="tel" class="thin min alt-placeholder alt-placeholder-active" id="Diagnostics-Form-Feet" name="heightinfeet" pattern="[0-9]*" data-placeholder="5" value=""><span class="form-field-suffix body4">ft</span>
+											<input type="tel" class="thin min alt-placeholder alt-placeholder-active" id="Diagnostics-Form-Inch" name="heightininches" pattern="[0-9]*" data-placeholder="5" value=""><span class="form-field-suffix body4">in</span>
+										</div>
+										<div class="row parent">
+											<label for="Diagnostics-Form-Age" class="body1 form-label"><span class="valign-middle">Age</span></label>
+											<input name="Age" id="Diagnostics-Form-Age" class="thin min alt-placeholder" maxlength="3" type="num" pattern="[0-9]*" data-placeholder="" value=""><span class="form-field-suffix body4">yrs</span>
+										</div>
+										<div class="row error disclaimer body4 orange txt-center hidden age"><span class="error">Invalid age.</span></div>
+										<div class="row row-gender">
+											<div class="form-label">Gender</div>
+											<div class="picker picker-radio inline checked">
+												<!--<div class="picker-handle">-->
+													<!--<div class="picker-flag"></div>-->
+												<!--</div>-->
+												<input type="radio" name="grpGender" value="Female" class="picker-handle" Checked>
+												<label for="gender-female" class="picker-label">Female</label>
+											</div>
+											<input id="gender-female" name="gender" value="F" checked="checked" type="radio" class="toInline white picker-element picker-elemented">
+											<div class="picker picker-radio inline">
+												<!--<div class="picker-handle">-->
+													<!--<div class="picker-flag"></div>-->
+												<!--</div>-->
+												<input type="radio" name="grpGender" value="Male" class="picker-handle" Checked>
+												<label for="gender-male" class="picker-label">Male</label></div>
+											<input id="gender-male" name="gender" value="M" type="radio" class="toInline white picker-element picker-elemented">
+										</div>
+										<div class="row email">
+											<label for="email" class="body1 form-label"><span class="valign-middle">Email</span></label>
+											<input class="thin" id="email" name="Email" placeholder="Email" type="email" value="">
+										</div>
+										<div class="row error disclaimer body4 orange txt-center hidden email"><span class="error">Please enter an E-mail address.</span></div>
+										<div class="row antispam">
+											<input type="checkbox" name="antispam" id="antispam" value="antispam" class="picker-element picker-elemented">
+											<div class="picker picker-checkbox "><div class="picker-handle"><div class="picker-flag"></div></div><label for="antispam" class="picker-label">Yes, I want to receive marketing communications. I understand I can unsubscribe at any time.</label></div>
+										</div>
+										<div class="row submit">
+											<input class="button" value="Start now »" type="submit">
+										</div>
+										<div class="row disclaimer disclaimer-bottom body4 txt-center grey4">
+											By clicking START NOW, you agree to our <a target="_blank" href="/diet/terms-of-use">Terms of Use</a> and <a href="/diet/privacy-policy" target="_blank">Privacy Policy</a>.
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="howitworks">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-12 articles-header clearfix">
+							<h2 class="articles-title title-small h3">HOW IT WORKS</h2>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 workblockscol">
+						<div class="workblocks">
+							<img src="assets/images/HowItWorksPeople(1).jpg" class="workimg" alt="">
+							<div class="row text-box">
+								<h4>Phase1</h4>
+								<h4 class="workh4"><a href="">Lose It!</a></h4>
+								<p>Lose It! is designed to jump-start your weight loss and help you lose up to <b>6 to 10 pounds</b> in 2 weeks in a safe and healthy way.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 workblockscol">
+						<div class="workblocks">
+							<img src="assets/images/HowItWorksPeople(1).jpg" class="workimg" alt="">
+							<div class="row text-box">
+								<h4>Phase2</h4>
+								<h4 class="workh4"><a href="">Lose It!</a></h4>
+								<p>Lose It! is designed to jump-start your weight loss and help you lose up to <b>6 to 10 pounds</b> in 2 weeks in a safe and healthy way.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 workblockscol">
+						<div class="workblocks">
+							<img src="assets/images/HowItWorksPeople(1).jpg" class="workimg" alt="">
+							<div class="row text-box">
+								<h4>Phase3</h4>
+								<h4 class="workh4"><a href="">Lose It!</a></h4>
+								<p>Lose It! is designed to jump-start your weight loss and help you lose up to <b>6 to 10 pounds</b> in 2 weeks in a safe and healthy way.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="whatyouget">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-12 articles-header clearfix">
+							<h2 class="articles-title title-small h3">WHAT YOU GET</h2>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 workblockscol">
+						<div class="workblocks workblocks1">
+							<img src="assets/images/3D_Cover_Core.jpg" class="workimg" alt="">
+							<!--<div class="row text-box">-->
+								<!--<h4>The Cruise Control Guide Core Program</h4>-->
+								<!--<h4 class="workh5"><a href="">Click here to download!</a></h4>-->
+							<!--</div>-->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 workblockscol">
+						<div class="workblocks">
+							<img src="assets/images/3D_Cover_Jumpstart.jpg" class="workimg" alt="">
+							<!--<div class="row text-box">-->
+								<!--<h4>The Cruise Control Guide Jumpstart Guide</h4>-->
+								<!--<h4 class="workh5"><a href="">Click here to download!</a></h4>-->
+							<!--</div>-->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 workblockscol">
+						<div class="workblocks">
+							<img src="assets/images/3D_Cover_CookBook.jpg" class="workimg" alt="">
+							<!--<div class="row text-box">-->
+								<!--<h4>The Cruise Control Guide Cook Book</h4>-->
+								<!--<h4 class="workh5"><a href="">Click here to download!</a></h4>-->
+							<!--</div>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="food">
+			<div class="container gallery">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-12 articles-header clearfix">
+							<h2 class="articles-title title-small h3">FOOD</h2>
+						</div>
+
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Egg%20muffins.jpg">
+								<img src="assets/images/Egg%20muffins.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Egg muffins</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Chicken%20salad.jpg">
+								<img src="assets/images/Chicken%20salad.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Chicken salad</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Chicken%20soup.jpg">
+								<img src="assets/images/Chicken%20soup.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Chicken soup</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Salmon%20with%20side%20salad.jpg">
+								<img src="assets/images/Salmon%20with%20side%20salad.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Salmon with side salad</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Fish%20stew.jpg">
+								<img src="assets/images/Fish%20stew.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Fish stew (cioppino)</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Fruit%20and%20nuts.jpg">
+								<img src="assets/images/Fruit%20and%20nuts.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Fruits, nuts and seeds</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Shrimp%20salad.jpg">
+								<img src="assets/images/Shrimp%20salad.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Shrimp salad</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Greek%20salad.jpg">
+								<img src="assets/images/Greek%20salad.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Greek salad</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Carrot%20pumpkin%20soup.jpg">
+								<img src="assets/images/Carrot%20pumpkin%20soup.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Carrot pumpkin soup</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Grilled%20sausages%20.jpg">
+								<img src="assets/images/Grilled%20sausages%20.jpg" class="workimg" alt="" style="width:100%;">
+								<div class="row">
+									<p>Grilled sausages</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Spinach%20frittata.jpg">
+								<img src="assets/images/Spinach%20frittata.jpg" class="workimg" alt="" style="width:100%;" onclick="openModal();currentSlide(2)">
+								<div class="row">
+									<p>Spinach frittata</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 workblockscol">
+						<div class="workblocks workblocks2">
+							<a class="fancybox" rel="ligthbox" href="assets/images/Cauliflower%20with%20cheese%20bake.jpg">
+								<img src="assets/images/Cauliflower%20with%20cheese%20bake.jpg" class="workimg" alt="" style="width:100%;" onclick="openModal();currentSlide(1)">
+								<div class="row">
+									<p>Cauliflower with cheese bake</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="successstories">
+			<div class="row">
+				<div class="successheader">
+					<h3>SUCCESS STORIES</h3>
+				</div>
+				<div class="col-md-12">
+					<div id="nyCarousel2" class="carousel slide largesize">
+						<ol class="carousel-indicators">
+							<li data-target="#nyCarousel2" data-slide-to="0" class="active"></li>
+							<li data-target="#nyCarousel2" data-slide-to="1"></li>
+							<li data-target="#nyCarousel2" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Carousel items -->
+						<div class="carousel-inner">
+
+							<div class="item active">
+								<div class="row">
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/123.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/14_illinois.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/hilary-blair-success-public-hp.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									.
+								</div><!--.row-->
+							</div><!--.item-->
+
+							<div class="item">
+								<div class="row">
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/hilary-blair-success-public-hp.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/14_illinois.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/123.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									.
+								</div><!--.row-->
+							</div><!--.item-->
+
+							<div class="item">
+								<div class="row">
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/123.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/14_illinois.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/hilary-blair-success-public-hp.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									.
+								</div><!--.row-->
+							</div><!--.item-->
+
+						</div><!--.carousel-inner-->
+						<a data-slide="next" href="#nyCarousel2" class="carousel-control left">‹</a>
+						<a data-slide="prev" href="#nyCarousel2" class="carousel-control right">›</a>
+					</div><!--.Carousel-->
+
+					<!---------responsive slider start------------>
+					<div id="nyCarousel3" class="carousel slide mobilesize">
+						<ol class="carousel-indicators">
+							<li data-target="#nyCarousel3" data-slide-to="0" class="active"></li>
+							<li data-target="#nyCarousel3" data-slide-to="1"></li>
+							<li data-target="#nyCarousel3" data-slide-to="2"></li>
+							<li data-target="#nyCarousel3" data-slide-to="3"></li>
+							<li data-target="#nyCarousel3" data-slide-to="4"></li>
+							<li data-target="#nyCarousel3" data-slide-to="5"></li>
+							<li data-target="#nyCarousel3" data-slide-to="6"></li>
+						</ol>
+
+						<!------------------------------------------------------------------------------------------------------->
+						<!--<div class="item">-->
+							<!--<div class="row">-->
+								<!--<div class="col-md-4 col-sm-4 col-xs-12">-->
+									<!--<div class="thumbnail workblocks" style="float:left;">-->
+										<!--<div class="col-md-4 nomargin">-->
+											<!--<img  src="assets/images/123.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">-->
+
+										<!--</div>-->
+										<!--<div class="col-md-8">-->
+											<!--<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>-->
+											<!--<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>-->
+										<!--</div>-->
+									<!--</div>-->
+								<!--</div>-->
+								<!--<div class="col-md-4 col-sm-4 col-xs-12">-->
+									<!--<div class="thumbnail workblocks" style="float:left;">-->
+										<!--<div class="col-md-4 nomargin">-->
+											<!--<img  src="assets/images/14_illinois.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">-->
+										<!--</div>-->
+										<!--<div class="col-md-8">-->
+											<!--<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>-->
+											<!--<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>-->
+										<!--</div>-->
+									<!--</div>-->
+								<!--</div>-->
+								<!--<div class="col-md-4 col-sm-4 col-xs-12">-->
+									<!--<div class="thumbnail workblocks" style="float:left;">-->
+										<!--<div class="col-md-4 nomargin">-->
+											<!--<img  src="assets/images/hilary-blair-success-public-hp.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">-->
+										<!--</div>-->
+										<!--<div class="col-md-8">-->
+											<!--<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>-->
+											<!--<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>-->
+										<!--</div>-->
+									<!--</div>-->
+								<!--</div>-->
+								<!--.-->
+							<!--</div>&lt;!&ndash;.row&ndash;&gt;-->
+						<!--</div>&lt;!&ndash;.item&ndash;&gt;-->
+						<!------------------------------------------------------------------------------------------------------->
+
+						 <!--Carousel items-->
+						<div class="carousel-inner">
+
+							<div class="item active">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/123.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									.
+								</div><!--.row-->
+							</div><!--.item-->
+
+							<div class="item">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/14_illinois.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+
+								</div><!--.row-->
+							</div><!--.item-->
+
+							<div class="item">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/hilary-blair-success-public-hp.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+								</div><!--.row-->
+							</div><!--.item-->
+
+							<div class="item">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/hilary-blair-success-public-hp.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+								</div><!--.row-->
+							</div><!--.item-->
+
+							<div class="item">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/14_illinois.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+								</div><!--.row-->
+							</div><!--.item-->
+
+							<div class="item">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/123.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									.
+								</div><!--.row-->
+							</div><!--.item-->
+
+							<div class="item">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="thumbnail workblocks" style="float:left;">
+											<div class="col-md-4 nomargin">
+												<img  src="assets/images/123.jpg" style="width:100%;max-width: 100%;height:150px;border-radius:5px;">
+											</div>
+											<div class="col-md-8">
+												<p class="quotes">Through the Mayo Clinic Diet, this married couple regained their health, confidence and identities — and lost almost 100 pounds in the process!</p>
+												<p class="afterquote">- Keith<br/><span class="successwt">85* </span></p>
+											</div>
+										</div>
+									</div>
+									.
+								</div><!--.row-->
+							</div><!--.item-->
+						</div><!--.carousel-inner-->
+						<a data-slide="prev" href="#nyCarousel3" class="carousel-control left">‹</a>
+						<a data-slide="next" href="#nyCarousel3" class="carousel-control right">›</a>
+					</div><!--.Carousel-->
+					<!---------responsive slider end------------>
+				</div>
+			</div>
+
+		</section>
+
+	<section id="textpoints">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-8 col-md-offset-2" >
+						<h3 style="text-align:center;font-weight:bold;margin:10px 0px;margin-bottom:20px;color: #00aeef;">TEXT HERE WITH BULLET POINTS</h3>
+						<ul class="bottomul" style="font-size:17px;">
+							<li class="c1">Discover the only the only natural eating plan that frees you from calorie counting, portion controls, and point systems... yet still allows you to lose weight effortlessly.</li>
+							<li class="c1">This radically simple way to eat strips off every last ounce of your stubborn body fat without you having to starve yourself, spend hours in the gym, or give up your social life. And it works whether you're a man or a woman - young or old - PLUS...</li>
+							<li class="c1">You also receive the Fat Burning Cook Book and Jumpstart Guide.</li>
+							<li class="c1">Finally, you're fully protected by my 60-day Iron Clad,100% Money Back Guarantee.</li>
+						</ul>
+						<ul></ul>
+						<p style="text-align:center;font-size:18px;margin-bottom:20px;"><strong>Is that you? Are you ready? </strong>Because if you're upto the challenge, I want to help you to achieve your dreams<p>
+						<p style="text-align:center;"><a href="#" class="btn ordernow" style="color:#ffffff;background-color: #ff7300;font-size:20px;font-weight:bold;">ORDER NOW</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="partners">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-2 col-sm-2 col-xs-6 textcenter">
+						<img src="assets/images/100.jpg" style="width:100px;">
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-6 textcenter">
+						<img src="assets/images/60days.jpg" style="width:100px;">
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-6 textcenter">
+						<img src="assets/images/100.jpg" style="width:100px;">
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-6 textcenter">
+						<img src="assets/images/60days.jpg" style="width:100px;">
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-6 textcenter">
+						<img src="assets/images/100.jpg" style="width:100px;">
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-6 textcenter">
+						<img src="assets/images/60days.jpg" style="width:100px;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="abovefooter">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-4 col-sm-12 afooterone">
+						<input type="email" placeholder="Email" name="useremail" class="useremail">
+						<input type="submit" value="SEND MY RECEPIES" class="ordernow usersubmit">
+					</div>
+					<div class="col-md-4  col-sm-6">
+						<p class="afooterp">Stay connected with Medifast:</p>
+						<div class="afooterd">
+							<ul class="abovefooterul">
+								<li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+								<li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+								<li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+								<li><i class="fa fa-pinterest-square" aria-hidden="true"></i></li>
+								<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4  col-sm-6">
+						<p class="afooterp">Need to get in touch with us?</p>
+						<div class="afooterd">
+							<ul class="abovefooterul2">
+								<li><i class="fa fa-comment" aria-hidden="true"></i><br/><span class="icontext">CHAT</span></li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i><br/><span class="icontext">CALL</span></li>
+								<li><i class="fa fa-info-circle" aria-hidden="true"></i><br/><span class="icontext">HELP</span></li>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i><br/><span class="icontext">CONTACT</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<p class="copyrght"><strong>Copyright © <span id="getyear">2017</span> Medifast, Inc. All Right Reserved.</strong><br>
+						<script>
+							var d = new Date();
+							document.getElementById('getyear').innerHTML = d.getFullYear();
+						</script>
+						<a href="#">Trademarks</a> | <a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Guarantee</a></p>
+					<p class="disclaimer clear">
+						<a target="_blank" id="bbblink" class="ruhzbus pull-right ga-external" href="#" title="" style="padding: 0px; margin: 0px;">
+							<img style="padding: 0px; border: none;" class="pull-right" id="bbblinkimg" src="assets/images/seal-for-21010272.png" width="200" height="45" alt="">
+						</a>
+						<a target="_blank" href="#"><img width="115" class="pull-right" height="32" src="assets/images/12.gif" alt="" oncontextmenu=""></a>
+						Medifast makes no claim that these results are representative of all participants on the Medifast Program. Medifast recommends you consult with a physician before starting a weight-loss program. Medifast is the brand recommended by more than 20,000 doctors since 1980. </p>
+					<p class="disclaimer">Davis, L.M., Coleman, C.D., Kiel, J., Rampolla, J., Hutchisen, T., Ford, L., Andersen, W.S., Hanlon-Mitola, A. (2010). Efficacy of a meal replacement diet compared to a food-based diet after a period of weight loss and weight maintenance: a randomized controlled trial. Nutrition Journal, 9(11). <a href="#" target="_blank" class="ga-external">View Study</a></p>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	</body>
+	<script src="assets/js/script.js?v=1"></script>
+</html>
